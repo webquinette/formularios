@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa{
+    background-color: #f6f6f6;
+    width: 600px;
+    border: #92b7bc 1px solid;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #006570;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #92b7bc;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+.formulario{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.rotulo{
+    display: block;
+    font-size: 18px;
+    font-family: arial;
+    color: #006570;
+    margin-top: 10px;
+}
+
+.campo{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8
+
+}
+
+.botao{
+    display: block;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    margin-top:20px ;
+    margin-bottom: 30px;
+    background-color: #21a3c2;
+    border: 1px solid #21a3c2;
+    border-radius:5px;
+    color: white;
+    font-weight:bold;
+    text-shadow:-2px 1px 2px #2c2c2c;
+}
+
+.rodape{
+background-color: #e1eaeb;
+color:#9b9b9b;
+font-family: arial;
+text-align: right;
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.link{
+background-color: #f6f7f0;
+border: 1px solid #d4de75;
+border-radius: 2px;
+color:#21a3c2;
+text-decoration: none;
+padding: 3px;
+font-weight: bold;
+
+
+}
